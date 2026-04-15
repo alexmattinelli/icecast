@@ -1,0 +1,36 @@
+[2026-04-15  18:59:58] INFO stats/stats.c stats thread started
+[2026-04-15  18:59:58] WARN fserve/fserve.c Cannot open mime types file .\mime.types
+[2026-04-15  18:59:58] INFO fserve/fserve.c file serving started
+[2026-04-15  18:59:58] INFO main/main.c Icecast 2.5.0 server started
+[2026-04-15  18:59:58] INFO main/main.c Server's PID is 20156
+[2026-04-15  18:59:58] INFO main/main.c Running on Alex; OS: MS Windows; Address Bits: 64
+[2026-04-15  18:59:58] INFO main/main.c From configuration: Our hostname is "localhost", located "Earth", with admin contact "icemaster@localhost"
+[2026-04-15  18:59:58] INFO yp/yp.c YP update thread started
+[2026-04-15  18:59:58] INFO event-stream/event_stream.c event queued
+[2026-04-15  18:59:58] INFO connection/connection.c No TLS capability on any configured ports
+[2026-04-15  19:01:16] WARN xslt/xslt.c Error checking for stylesheet file "./web/status.xsl": No such file or directory
+[2026-04-15  19:01:16] EROR xslt/xslt.c problem reading stylesheet "./web/status.xsl"
+[2026-04-15  19:01:16] WARN xslt/xslt.c Error checking for stylesheet file "./admin\error-html.xsl": No such file or directory
+[2026-04-15  19:01:16] EROR xslt/xslt.c problem reading stylesheet "./admin\error-html.xsl"
+[2026-04-15  19:01:17] INFO fserve/fserve.c checking for file /favicon.ico (./web/favicon.ico)
+[2026-04-15  19:01:17] WARN fserve/fserve.c req for file "./web/favicon.ico" No such file or directory
+[2026-04-15  19:01:34] WARN xslt/xslt.c Error checking for stylesheet file "./web/status.xsl": No such file or directory
+[2026-04-15  19:01:34] EROR xslt/xslt.c problem reading stylesheet "./web/status.xsl"
+[2026-04-15  19:01:34] WARN xslt/xslt.c Error checking for stylesheet file "./admin\error-html.xsl": No such file or directory
+[2026-04-15  19:01:34] EROR xslt/xslt.c problem reading stylesheet "./admin\error-html.xsl"
+[2026-04-15  19:01:34] INFO fserve/fserve.c checking for file /favicon.ico (./web/favicon.ico)
+[2026-04-15  19:01:34] WARN fserve/fserve.c req for file "./web/favicon.ico" No such file or directory
+[2026-04-15  19:04:58] INFO event-stream/event_stream.c event queued
+[2026-04-15  19:05:26] WARN fserve/fserve.c Cannot open mime types file .\mime.types
+[2026-04-15  19:05:26] INFO stats/stats.c stats thread started
+[2026-04-15  19:05:26] INFO fserve/fserve.c file serving started
+[2026-04-15  19:05:26] INFO main/main.c Icecast 2.5.0 server started
+[2026-04-15  19:05:26] INFO main/main.c Server's PID is 10636
+[2026-04-15  19:05:26] INFO main/main.c Running on Alex; OS: MS Windows; Address Bits: 64
+[2026-04-15  19:05:26] INFO main/main.c From configuration: Our hostname is "localhost", located "Earth", with admin contact "icemaster@localhost"
+[2026-04-15  19:05:26] INFO yp/yp.c YP update thread started
+[2026-04-15  19:05:26] INFO event-stream/event_stream.c event queued
+[2026-04-15  19:05:26] INFO connection/connection.c No TLS capability on any configured ports
+[2026-04-15  19:05:32] INFO fserve/fserve.c checking for file /assets/css/style.css (C:/Icecast/web/assets/css/style.css)
+[2026-04-15  19:05:32] INFO fserve/fserve.c checking for file /assets/img/icecast.png (C:/Icecast/web/assets/img/icecast.png)
+[2026-04-15  19:10:26] INFO event-stream/event_stream.c event queued

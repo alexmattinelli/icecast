@@ -1,0 +1,7 @@
+::1 - - [15/Apr/2026:19:01:16 -0300] "GET / HTTP/1.1" 500 150 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" 0
+::1 - - [15/Apr/2026:19:01:17 -0300] "GET /favicon.ico HTTP/1.1" 404 734 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" 1
+127.0.0.1 - - [15/Apr/2026:19:01:34 -0300] "GET / HTTP/1.1" 500 150 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" 0
+127.0.0.1 - - [15/Apr/2026:19:01:34 -0300] "GET /favicon.ico HTTP/1.1" 404 734 "http://127.0.0.1:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" 0
+127.0.0.1 - - [15/Apr/2026:19:05:31 -0300] "GET / HTTP/1.1" 200 1857 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" 0
+127.0.0.1 - - [15/Apr/2026:19:05:32 -0300] "GET /assets/css/style.css HTTP/1.1" 200 8202 "http://127.0.0.1:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" 1
+127.0.0.1 - - [15/Apr/2026:19:05:32 -0300] "GET /assets/img/icecast.png HTTP/1.1" 200 9445 "http://127.0.0.1:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" 1
