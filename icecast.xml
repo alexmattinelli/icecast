@@ -63,7 +63,12 @@
         <option name="timeout" value="15" />
     </yp-directory>
     -->
-
+    
+    <changeowner>
+      <user>nobody</user>
+      <group>nogroup</group>
+    </changeowner>
+    
     <!-- You may have multiple <listen-socket> elements -->
     <listen-socket>
         <port>8000</port>
