@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y icecast2 && \
     rm -rf /var/lib/apt/lists/*
 
 # cria usuário não-root (OBRIGATÓRIO no Render)
-RUN useradd -m icecast && \
+RUN useradd -m -g icecast icecast || true && \
     mkdir -p /var/log/icecast && \
     chown -R icecast:icecast /var/log/icecast
 
