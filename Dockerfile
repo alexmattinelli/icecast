@@ -1,9 +1,12 @@
 FROM debian:stable-slim
 
 RUN apt-get update && apt-get install -y icecast2 && \
-    useradd -m icecast
+    rm -rf /var/lib/apt/lists/*
 
-RUN mkdir -p /var/log/icecast2 && chown -R icecast:icecast /var/log/icecast2
+# cria usuário não-root (OBRIGATÓRIO no Render)
+RUN useradd -m icecast && \
+    mkdir -p /var/log/icecast && \
+    chown -R icecast:icecast /var/log/icecast
 
 COPY icecast.xml /etc/icecast2/icecast.xml
 
